@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our New Year Memories ❤️</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    overflow-x: hidden;
+}
+
+/* ---------- INTRO ---------- */
+.intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    color: #ffb6c1;
+}
+
+.intro p {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* ---------- GALLERY ---------- */
+.section {
+    padding: 40px 15px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffb6c1;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: rgba(255,255,255,0.08);
+    border-radius: 15px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img, .card video {
+    width: 100%;
+    display: block;
+}
+
+.caption {
+    padding: 12px;
+}
+
+.caption h4 {
+    color: #ffb6c1;
+    margin-bottom: 5px;
+}
+
+.caption p {
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* ---------- HEARTS ---------- */
+.heart {
+    position: fixed;
+    bottom: -20px;
+    font-size: 20px;
+    animation: floatUp 6s linear infinite;
+    color: pink;
+}
+
+@keyframes floatUp {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-110vh);
+        opacity: 0;
+    }
+}
+
+/* ---------- MOBILE ---------- */
+@media(max-width: 600px) {
+    .intro h1 {
+        font-size: 2rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- ---------- MUSIC ---------- -->
+<audio id="bgMusic" loop>
+    <source src="songforher.mp3" type="audio/mpeg">
+</audio>
+
+<!-- ---------- INTRO ---------- -->
+<div class="intro">
+    <h1>Happy New Year, My Love ❤️</h1>
+    <p>
+        Every moment with you became a memory worth keeping forever.<br>
+        This album is my heart, wrapped for you.
+    </p>
+    <p style="margin-top:20px;opacity:0.7;font-size:0.9rem;">
+        Tap anywhere to start the music 🎵
+    </p>
+</div>
+
+<!-- ---------- GALLERY ---------- -->
+<div class="section">
+    <h2>Our Beautiful Memories 📸</h2>
+
+    <div class="gallery">
+        <div class="card">
+            <img src="16 08 25(1).jpg">
+            <div class="caption">
+                <h4>First Date 💕💖💕</h4>
+                <p>16 August 2025 — Our First official Date💗</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="16 08 25(2).jpg">
+            <div class="caption">
+                <h4>Us Together</h4>
+                <p>16 August 2025 — Our two hearts together ❤️❤️</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="16 08 25(3).jpg">
+            <div class="caption">
+                <h4>My Favorite Memory</h4>
+                <p>16 August 2025 — held ur hand for the first time and for eternity 💝</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="26 08 25.jpg">
+            <div class="caption">
+                <h4>Our 2nd Date 💕💖💕</h4>
+                <p>26 August 2025 — This Day I fall for you deeper</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="26 08 25(1).jpg">
+            <div class="caption">
+                <h4>Our 2nd Date 💕💖💕</h4>
+                <p>26 August 2025 — 💕💖💕</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="30 08 25.jpg">
+            <div class="caption">
+                <h4>Uss Together</h4>
+                <p>30 August 2025 — Our loving smile 💝</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="30 08 25 (2).jpg">
+            <div class="caption">
+                <h4>My Safe Home</h4>
+                <p>30 August 2025 — My Safe Homee💝.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="30 08 25 (4).jpg">
+            <div class="caption">
+                <h4>First Mirror Pic</h4>
+                <p>30 August 2025 — Our Best romantic kiss😘😘</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="03 09 25.jpg">
+            <div class="caption">
+                <h4>Cha Adda</h4>
+                <p>03 September 2025 — First Cha Date after college 💝</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="04 09 25.jpg">
+            <div class="caption">
+                <h4>After College</h4>
+                <p>04 September 2025— After ur college a Datee in KFC ❤️💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="04 09 25 (2).jpg">
+            <div class="caption">
+                <h4>KFC Date</h4>
+                <p>04 September 2025 — For some reason u was down. I came to light up my Queen💗❤️</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="09 09 25.jpg">
+            <div class="caption">
+                <h4>La Mirchi Date</h4>
+                <p>09 September 2025 — this date was not bad but still it's a memory😁</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="09 09 25 (2).jpg">
+            <div class="caption">
+                <h4>Pizza Hut First Date</h4>
+                <p>09 September 2025 — To end the day perfectly. we go on another Date..</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="25 09 25.jpg">
+            <div class="caption">
+                <h4>After last Exam</h4>
+                <p>25 September 2025 — After last pre-test exam. U came to comfort me ❤️❤️💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 09 25.jpg">
+            <div class="caption">
+                <h4>Ozz Cafee Date</h4>
+                <p>29 September 2025 — One of Our Best Date ever 💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 09 25 (2).jpg">
+            <div class="caption">
+                <h4>Ozz Cafee Date</h4>
+                <p>29 September 2025 — That day u weared sharee. My hearts started racing after seeing u. My wifee is so muchh beautiful </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 09 25 (3).jpg">
+            <div class="caption">
+                <h4>Ozz Cafee Date</h4>
+                <p>29 September 2025 — We married couple in green looking absolutely perfect.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 09 25 (4).jpg">
+            <div class="caption">
+                <h4>Ozz Cafee Date</h4>
+                <p>29 September 2025 — I still remember that day u hold me tightly</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 09 25 (5).jpg">
+            <div class="caption">
+                <h4>Ozz Cafee Date</h4>
+                <p>29 September 2025 — U hold me Tight and expressed ur every fear. U cried in the fear of losing me. I hold u tight in my chest and reassured u that. Ami ekbar tmr ei hat dhrsi it means je ami ar sharajibon eo charbo na. I will marry u soon and make u the most happiest woman Rizin</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 09 25 (6).jpg">
+            <div class="caption">
+                <h4>Ozz Cafee Date</h4>
+                <p>29 September 2025 — Lifee Feels like Lifee when I am with u 💗💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 09 25 (7).jpg">
+            <div class="caption">
+                <h4>Ozz Cafee Date</h4>
+                <p>29 September 2025 — we 💗❤️</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 09 25 (8).jpg">
+            <div class="caption">
+                <h4>Ozz Cafee Date</h4>
+                <p>29 September 2025 — Mahmud Rufaye Zaber X Sharhad Sultana Rizin</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 09 25 (9).jpg">
+            <div class="caption">
+                <h4>Ozz Cafee Date</h4>
+                <p>29 September 2025 — I will forever keep this smile in ur facee. I promise 💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 09 25 (10).jpg">
+            <div class="caption">
+                <h4>Ozz Cafee Date</h4>
+                <p>29 September 2025 — 💗Forver u will be happy like this with me💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 09 25 (11).jpg">
+            <div class="caption">
+                <h4>Engagement 💗💗</h4>
+                <p>29 September 2025 — We engaged ❤️💗⭐💫</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="18 10 25.jpg">
+            <div class="caption">
+                <h4>Date after a Interval</h4>
+                <p>18 October 2025 — A Date after 20 days. U were in Jamalpur 💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="18 10 25 (2).jpg">
+            <div class="caption">
+                <h4>A Date 💗</h4>
+                <p>18 October 2025 — I missed u soo muchhh all this day.. so this date is so muchh memorable to me💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="18 10 25 (3).jpg">
+            <div class="caption">
+                <h4>We are smiling together</h4>
+                <p>18 October 2025 — Forever I want to smile with u 💗🫂</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="18 10 25 (4).jpg">
+            <div class="caption">
+                <h4>Engagement Rings 💫</h4>
+                <p>18 October 2025 — Our Engagement Ring 🫂</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="19 10 25.jpg">
+            <div class="caption">
+                <h4>An unplanned date</h4>
+                <p>8 October 2024 — 💫tumi amr upor rag krsila.. That's why I gave u a treat💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="19 10 25 (2).jpg">
+            <div class="caption">
+                <h4>An unplanned date</h4>
+                <p>19 October 2025 — 💗Then My babyyy again becomes so happy💫</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="19 10 25 (3).jpg">
+            <div class="caption">
+                <h4>An unplanned date</h4>
+                <p>19 October 2025 — 💫Me with my wifee💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="25 10 25.jpg">
+            <div class="caption">
+                <h4>Most Happiest Day</h4>
+                <p>25 October 2025 — I left my bad habit for u 💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="25 10 25 (2).jpg">
+            <div class="caption">
+                <h4>Happiest Smile</h4>
+                <p>25 October 2025 — This day tumi onkk happy sila amr letter ar gifts peye</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="28 10 25.jpg">
+            <div class="caption">
+                <h4>Date after Bunking College 😁</h4>
+                <p>28 October 2025 — Our small Date 🫂💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1 11 25.jpg">
+            <div class="caption">
+                <h4>First November Date</h4>
+                <p>1 November 2025 — A wifee marking her husband as her property 💗💫</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1 11 25 (2).jpg">
+            <div class="caption">
+                <h4>First November Date</h4>
+                <p>1 November 2025 — She be like: This is my Man 💗💫</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1 11 25 (3).jpg">
+            <div class="caption">
+                <h4>First November Date</h4>
+                <p>1 November 2025 — Our peaceful Home 🫂</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1 11 25 (4).jpg">
+            <div class="caption">
+                <h4>First November Date</h4>
+                <p>1 November 2025 — Mine 💗💫</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1 11 25 (5).jpg">
+            <div class="caption">
+                <h4>First November Date</h4>
+                <p>1 November 2025 — 💗💗❤️😘</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="2 11 25.jpg">
+            <div class="caption">
+                <h4>During College day</h4>
+                <p>8 October 2024 — Zaber in college dress but he is not in college. He is in his safe home </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="2 11 25 (2).jpg">
+            <div class="caption">
+                <h4>Rizin Sleeping</h4>
+                <p>2 November 2025 — My cutush Babyy sleeping </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="4 11 25.jpg">
+            <div class="caption">
+                <h4>Another after college Date</h4>
+                <p>4 November 2025 — ❤️Being with u is my happiest moments💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="05 11 25.jpg">
+            <div class="caption">
+                <h4>College Date </h4>
+                <p>5 November 2025 — At this day we were together for a long time</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="05 11 25 (2).jpg">
+            <div class="caption">
+                <h4>OS X JS</h4>
+                <p>5 November 2025 — Zaber X Rizin</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="05 11 25 (3).jpg">
+            <div class="caption">
+                <h4>Parent's Shade</h4>
+                <p>5 November 2025 — Amk college e boshe khawai disila🫂</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="08 11 25.jpg">
+            <div class="caption">
+                <h4>Burger Lab Date</h4>
+                <p>8 November 2025 — U got a seriouss crush on me this day. Me also got serious crush on u</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="08 11 25 (2).jpg">
+            <div class="caption">
+                <h4>Burger Lab Date</h4>
+                <p>8 November 2025 — 💗❤️💫😘</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="08 11 25 (3).jpg">
+            <div class="caption">
+                <h4>Burger Lab Date</h4>
+                <p>8 November 2025 — ❤️❤️💗💗😘😘</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="08 11 25 (4).jpg">
+            <div class="caption">
+                <h4>Burger Lab Date</h4>
+                <p>8 November 2025 — 💗😘</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="08 11 25 (5).jpg">
+            <div class="caption">
+                <h4>Burger Lab Date</h4>
+                <p>8 November 2025 —😘😘😘💗💗❤️❤️ </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="15 11 25.jpg">
+            <div class="caption">
+                <h4>Special Day 💗</h4>
+                <p>15 November 2025 — This day u gifts me with a set of ator. I lovedd it soo muchh. I was so happy. Thanks my wifee</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="22 11 25.jpg">
+            <div class="caption">
+                <h4>A sudden Date</h4>
+                <p>22 November 2025 — This is also a memorable Date</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="22 11 25 (2).jpg">
+            <div class="caption">
+                <h4>A sudden Date</h4>
+                <p>22 November 2025 — First unique flavour, second tasty treat and third amra mirpur gesi.. Bestt day silo eta</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 11 25(2).jpg">
+            <div class="caption">
+                <h4>Birthday Date 💫</h4>
+                <p>29 November 2025 — Fit Check 💫</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 11 25.jpg">
+            <div class="caption">
+                <h4>Birthday Date 💫</h4>
+                <p>29 November 2025 — U and Me 💗💗💫</p>
+            </div>elt real
+        </div>
+        <div class="card">
+            <img src="29 11 25(3).jpg">
+            <div class="caption">
+                <h4>Birthday Date 💫</h4>
+                <p>29 November 2025 — Again Fit Check 💫💫</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 11 25 (4).jpg">
+            <div class="caption">
+                <h4>Birthday Date 💫</h4>
+                <p>29 November 2025 — U and me looking so romantic and I am holding u. Lift er kiss mone e ase e ? 😁😘😘❤️💗</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="29 11 25 (6).JPG">
+            <div class="caption">
+                <h4>Birthday Date 💫</h4>
+                <p>29 November 2025 — U in my chest Forever 💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="cha.jpeg">
+            <div class="caption">
+                <h4>Birthday Date 💫</h4>
+                <p>29 November 2025 — Amr bou amr jonno cha banay anse 💗💗💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 11 25.jpeg">
+            <div class="caption">
+                <h4>Birthday Date 💫</h4>
+                <p>29 November 2025 — Looking at each other 👀</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 11 25 (2).jpeg">
+            <div class="caption">
+                <h4>Birthday Date 💫</h4>
+                <p>29 November 2025 — 💗💗💗❤️❤️😘😘😘💫💫</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 11 25 (3).jpeg">
+            <div class="caption">
+                <h4>Birthday Date 💫</h4>
+                <p>29 November 2025 — She gave me my first flower of life 😘💫</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="29 11 25 (4).jpeg">
+            <div class="caption">
+                <h4>Birthday Date 💫</h4>
+                <p>29 November 2025 — My eyes got locked on her eyes 💫</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="06 12 25.jpg">
+            <div class="caption">
+                <h4>Tasty Food</h4>
+                <p>06 December 2025 — She cooked Biryani for Me. I lovedd it. my fvrt food is the mood made by her 💫💫😘😘❤️❤️</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="06 12 25 (2).jpg">
+            <div class="caption">
+                <h4>Going Mirpur</h4>
+                <p>06 December 2025 — We are on the way to Mirpur</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="06 12 25 (3).jpg">
+            <div class="caption">
+                <h4>Lift Pic</h4>
+                <p>06 December 2025 — We are looking so damn hot together ❤️😘</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="06 12 25 (4).jpg">
+            <div class="caption">
+                <h4>Market Date</h4>
+                <p>06 December 2025 — ❤️Amr bou ke eidin onkk kichu kine disi ami❤️</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="06 12 25 (5).jpg">
+            <div class="caption">
+                <h4>My Favorite Memory</h4>
+                <p>06 December 2025 — Uss 💫💫</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="07 12 25.jpg">
+            <div class="caption">
+                <h4>Club Room</h4>
+                <p>07 December 2025 — Tomar break time e ami hajir 💫</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="09 12 25.jpg">
+            <div class="caption">
+                <h4>Holding Hands</h4>
+                <p>09 December 2025 — Forever Holding ur hand like this ❤️💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="09 12 25 (2).jpg">
+            <div class="caption">
+                <h4>Winter Date</h4>
+                <p>09 December 2025 — 💗Two souls made for each other❤️</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="18 12 25.jpeg">
+            <div class="caption">
+                <h4>Last Day in club room</h4>
+                <p>18 December 2025 — And this is how I kept looking at u while the last bell of college rang</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="18 12 25.jpg">
+            <div class="caption">
+                <h4>Last Day in College</h4>
+                <p>18 December 2025 — Refreshing our cutee and precious moments in college 💗💗💫</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="18 12 25(1).jpg">
+            <div class="caption">
+                <h4>Captured Each Other</h4>
+                <p>18 December 2025 — 💗💗❤️💫</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="18 12 25(2).jpg">
+            <div class="caption">
+                <h4>Last Day of College</h4>
+                <p>18 December 2025 — ❤️Morning of the last day of college Started with u💫</p>
+            </div>  
+        </div>
+        <div class="card">
+            <img src="18 12 25(3).jpg">
+            <div class="caption">
+                <h4>Last Day of College</h4>
+                <p>18 December 2025 — Falling for each other 💫❤️💗</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="21 12 25.jpg">
+            <div class="caption">
+                <h4>Last Date of the Year</h4>
+                <p>21 December 2025 — My Babyy is holding me tightly 🫂🫂🫂🫂</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="21 12 25 (2).jpg">
+            <div class="caption">
+                <h4>Last Date of the Year</h4>
+                <p>21 December 2025 — I will forever make u feel special and relaxed 🫂🫂</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="21 12 25 (3).jpg">
+            <div class="caption">
+                <h4>Last Date of the Year</h4>
+                <p>21 December 2025 — Dekho evabei sharajibon tmr hat ta dhre thakbo</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="21 12 25 (4).jpg">
+            <div class="caption">
+                <h4>Last Date of the Year</h4>
+                <p>21 December 2025 — 🫂🫂🫂🫂🫂🫂</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="21 12 25 (5).jpg">
+            <div class="caption">
+                <h4>Last Date of the Year</h4>
+                <p>21 December 2025 — 🫂🫂🫂🫂🫂🫂🫂</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="21 12 25 (6).jpg">
+            <div class="caption">
+                <h4>Last Date of the Year</h4>
+                <p>21 December 2025 — We are holding each other tightly 🫂🫂🫂🫂</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="21 12 25 (7).jpg">
+            <div class="caption">
+                <h4>Last Date of the Year</h4>
+                <p>21 December 2025 — My wifee holding my hand🫂🫂</p>
+            </div>
+        </div>
+       
+
+
+    </div>
+</div>
+
+<!-- ---------- VIDEO ---------- -->
+<div class="section">
+    <h2>A Moment in Motion 🎥</h2>
+
+    <div class="gallery">
+        <div class="card">
+            <video src="22222.mp4" controls></video>
+            <div class="caption">
+                <h4>Our Little World</h4>
+                <p>This video still makes my heart race.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------- FOOTER ---------- -->
+<div class="footer">
+    Made with endless love 💕 <br>
+    New Year • Forever Us
+</div>
+
+<script>
+/* ---------- MUSIC AUTOPLAY FIX ---------- */
+const music = document.getElementById("bgMusic");
+document.body.addEventListener("click", () => {
+    music.play();
+}, { once: true });
+
+/* ---------- FLOATING HEARTS ---------- */
+setInterval(() => {
+    const heart = document.createElement("div");
+    heart.className = "heart";
+    heart.innerHTML = "❤️";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = (15 + Math.random() * 20) + "px";
+    document.body.appendChild(heart);
+
+    setTimeout(() => {
+        heart.remove();
+    }, 6000);
+}, 400);
+</script>
+
+</body>
+</html>
